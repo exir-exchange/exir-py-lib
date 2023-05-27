@@ -7,20 +7,18 @@ Python library for Exir Kit.
 ## Usage
 
 ```python
-import hollaex
+import exir
 
-client = hollaex.HollaEx()
+client = exir.Exir()
 ```
 
 You can pass the `api-url` and `base_url` of the HollaEx-Enabled exchange to connect to. You can also pass your `api_key` and `api_secret` generated from the HollaEx-Enabled exchange.
 
 ```python
-from hollaex import HollaExAPI
+from exir import ExirAPI
 
-client = HollaExAPI(api_url='<EXCHANGE_API_URL>', 
-                       base_url='<EXCHANGE_BASE_URL>', 
-                       api_key='<MY_API_KEY>', 
-                       api_secret='<MY_API_SECRET>')
+client = ExirAPI(api_key='<MY_API_KEY>', 
+                 api_secret='<MY_API_SECRET>')
 ```
 
 You can also pass the field `api_expires` which is the length of time in seconds each request is valid for. The default value is `60`.
@@ -28,9 +26,9 @@ You can also pass the field `api_expires` which is the length of time in seconds
 ### Example:
 
 ```python
-import hollaex
+import exir
 
-client = hollaex.HollaExAPI(api_url='<EXCHANGE_API_URL>', 
+client = exir.ExirAPI(api_url='<EXCHANGE_API_URL>', 
                                 base_url_='<EXCHANGE_BASE_URL>', 
                                 api_key='<MY_API_KEY>', 
                                 api_secret ='<MY_API_SECRET>')
