@@ -9,8 +9,8 @@ import hashlib
 import json
 
 
-class HollaExAPI:
-    def __init__(self, api_key, api_secret, api_url='https://api.hollaex.com',base_url='/v2'):
+class ExirAPI:
+    def __init__(self, api_key, api_secret, api_url='https://api.exir.io',base_url='/v2'):
         self.api_key = api_key
         self.api_secret = api_secret
         self.api_url = api_url
