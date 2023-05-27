@@ -1,11 +1,11 @@
 # Import the HollaExAPI class from the lib.py in src derectory, you can copy the file in the example directory
-from lib.py  import HollaExAPI
+from lib.py  import ExirAPI
 # Set your API key and secret
 API_KEY = 'your_api_key'
 API_SECRET = 'your_secret_key'
 
 # Create an instance of the HollaExAPI class with your API key and secret
-kit = HollaExAPI(api_key=API_KEY, api_secret=API_SECRET)
+kit = ExirAPI(api_key=API_KEY, api_secret=API_SECRET)
 
 # Place a sell order for 1 XHT at a price of 1 USDT create_order(market,amount,price,side)
 kit.create_order('xht-usdt',1,1,'sell')
