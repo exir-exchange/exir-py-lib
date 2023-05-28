@@ -1,11 +1,11 @@
 Metadata-Version: 1.0
-Name: hollaex-py-lib
+Name: exir-py-lib
 Version: 1
 Summary: UNKNOWN
-Home-page: https://github.com/hollaex/hollaex-py-lib
+Home-page: https://github.com/exir-exchange/exir-py-lib
 Author: Mahdi
 Author-email: mahdi@hollaex.com
 License: MIT
 Description: UNKNOWN
-Keywords: Hollaex
+Keywords: Exir
 Platform: UNKNOWN
