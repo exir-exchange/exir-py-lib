@@ -1,4 +1,4 @@
-# Import the HollaExAPI class from the lib.py in src derectory, you can copy the file in the example directory
+# Import the ExirAPI class from the lib.py in src derectory, you can copy the file in the example directory
 from lib.py  import ExirAPI
 # Set your API key and secret
 API_KEY = 'your_api_key'
