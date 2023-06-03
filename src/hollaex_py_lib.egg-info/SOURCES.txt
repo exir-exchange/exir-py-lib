@@ -1,7 +1,0 @@
-README.md
-setup.cfg
-setup.py
-src/exir_lib.egg-info/PKG-INFO
-src/exir_py_lib.egg-info/SOURCES.txt
-src/exir_py_lib.egg-info/dependency_links.txt
-src/exir_py_lib.egg-info/top_level.txt
